@@ -162,3 +162,17 @@ main {
 .experience p{
     padding: 30px 150px;
 }
+
+/* skills section*/
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    padding: 50px 0px 130px;
+} 
+.skill{
+    padding: 35px;
+    border-radius: 5px;
+    background: #f9f5f5;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
