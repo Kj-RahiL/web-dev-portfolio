@@ -113,11 +113,14 @@ main section {
 
 /* section */
 .about {
-    padding: 130px;
+    
     border-radius: 10px;
     background: #fcede2;
-    margin: 130px 150px;
+    padding: 130px;
 
+}
+.about-body{
+    /* padding: 130px; */
 }
 
 .section-title {
@@ -135,6 +138,8 @@ main section {
 
 .about-info-container {
     display: flex;
+   
+    justify-content: center;
 
 }
 
@@ -143,8 +148,9 @@ main section {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-right: 25px;
+   
 
 }
 
