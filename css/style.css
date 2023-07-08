@@ -106,6 +106,9 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* section */
 .about {
@@ -168,8 +171,7 @@ main {
 .skill-container{
     display: flex;
     gap: 24px;
-    padding: 50px 0px 130px;
-} 
+}
 .skill{
     padding: 35px;
     border-radius: 5px;
