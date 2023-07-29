@@ -70,3 +70,43 @@
     }
     
 }
+@media screen and (max-width:970px) and (min-width:576px ) 
+{
+  nav{
+    margin: 20px 20px;
+  } 
+  .banner{
+    padding: 20px 20px 0;
+  } 
+  .banner-pic{
+    position: static;
+    width: 50%;
+    bottom: 0px;
+  }
+  .btn{
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .about-body{
+    padding: 10px;
+  }
+  .skill-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .resume-contrainer{
+    flex-direction: column;
+  }
+  .resume{
+    padding: 20px;
+  }
+  .footer-column1, .footer-column2{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer p{
+    padding: 20px 0;
+}
+}
