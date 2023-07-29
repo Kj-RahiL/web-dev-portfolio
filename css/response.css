@@ -1,0 +1,72 @@
+@media screen and (max-width:576px) {
+
+    nav,
+    .ul,
+    .banner, .about-info-container, .skill-container, .resume-contrainer, footer  {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-titel {
+        font-size: 2rem;
+    }
+    nav{
+        margin: 0;
+    }
+    hr{
+        width: 100%;
+    }
+
+    nav li {
+        margin: 1rem;
+    }
+
+    .banner, .about, .skill {    
+        padding:0 1.5rem;
+    }
+    .banner-pic {
+        bottom: 0px;
+        width: 100%;
+
+    }
+    .banner-titel{
+        padding: 10px 0;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .about-desc{
+        text-align: justify;
+    }
+    .about-info{
+        padding: 10px;
+    }
+    .about-desc{
+        padding: 10px;
+        text-align: justify;
+    }
+   
+    .skils-img{
+        display: flex;
+        justify-content: center;
+    }
+    .skill-titel{
+        text-align: center;
+    }
+    .footer-column1, .footer-column2{
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    .footer-form input[type=text], input[type=email], textarea {
+        width: 80%;
+    }
+    .footer-column1 p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .social-icon{
+        margin: 10px;
+    }
+    
+}

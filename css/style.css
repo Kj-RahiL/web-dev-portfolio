@@ -1,8 +1,12 @@
 /* universal styles */
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+.hide{
+    display: none;
+}
 .text-primary {
     color: #FD6E0A;
 }
@@ -78,19 +82,19 @@ nav a {
 }
 
 .banner-pic {
-
-    width: 500px;
+    width: 500px
+   
 }
 
 .banner-greeting {
-    font-size: 45px;
+    font-size: 3rem;
     color: #474747;
     margin-bottom: 0;
 
 }
 
 .banner-titel {
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     margin-top: 5PX;
     margin-bottom: 10px;
@@ -98,7 +102,8 @@ nav a {
 }
 
 .banner-description {
-    font-size: 20px;
+    font-size: 1.4rem;
+    padding-bottom: 10px;
 }
 
 /* main section */
@@ -116,11 +121,11 @@ main section {
     
     border-radius: 10px;
     background: #fcede2;
-    padding: 130px;
+    padding: 100px 130px;
 
 }
 .about-body{
-    /* padding: 130px; */
+    padding: 20px;
 }
 
 .section-title {
@@ -138,7 +143,6 @@ main section {
 
 .about-info-container {
     display: flex;
-   
     justify-content: center;
 
 }
@@ -269,3 +273,5 @@ footer {
     box-sizing: border-box;
 
 }
+
+/* responsive design */

@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardy Porfolio</title>
+    <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-
+    <!-- css link -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/response.css">
+    <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/4d9d7f8e5e.js" crossorigin="anonymous"></script>
 </head>
 
@@ -21,7 +24,7 @@
             <h2 class="nav-title">
                 Ma<span class="text-primary">r</span>y
             </h2>
-            <ul>
+            <ul class="ul">
                 <li>Portfolio</li>
                 <li>Blog</li>
                 <li><button class="btn">Hire Me</button></li>
@@ -43,40 +46,40 @@
     </header>
 
     <!-- this is menu section   -->
-    <main>
+    <main class="hide">
         <section class="about">
-           <div class="about-body">
-            <h3 class="section-title">AbouT Me</h3>
-            <p class="about-desc">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis non porro exercitationem suscipit
-                cupiditate libero consectetur, quas accusamus corporis dolores voluptatum ullam delectus eos ipsam
-                perferendis sint ut? Eaque, accusantium!
-            </p>
-            <div class="about-info-container">
-                <div class="about-info">
-                    <p class="info-titel">Name:</p>
-                    <h4 class="info-description">
-                        Mary Hardy </h4>
-                </div>
-                <div class="about-info">
-                    <p class="info-titel">Email:
-                    </p>
-                    <h4 class="info-description"> info@gmail.com</h4>
-                </div>
-                <div class="about-info">
-                    <p class="info-titel">Date of birth:
-                    </p>
-                    <h4 class="info-description"> 11 November 1987</h4>
-                </div>
-                <div class="about-info">
-                    <p class="info-titel">From:
-                    </p>
-                    <h4 class="info-description">Los Angeles, USA</h4>
+            <div class="about-body">
+                <h3 class="section-title">AbouT Me</h3>
+                <p class="about-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis non porro exercitationem suscipit
+                    cupiditate libero consectetur, quas accusamus corporis dolores voluptatum ullam delectus eos ipsam
+                    perferendis sint ut? Eaque, accusantium!
+                </p>
+                <div class="about-info-container">
+                    <div class="about-info">
+                        <p class="info-titel">Name:</p>
+                        <h4 class="info-description">
+                            Mary Hardy </h4>
+                    </div>
+                    <div class="about-info">
+                        <p class="info-titel">Email:
+                        </p>
+                        <h4 class="info-description"> info@gmail.com</h4>
+                    </div>
+                    <div class="about-info">
+                        <p class="info-titel">Date of birth:
+                        </p>
+                        <h4 class="info-description"> 11 November 1987</h4>
+                    </div>
+                    <div class="about-info">
+                        <p class="info-titel">From:
+                        </p>
+                        <h4 class="info-description">Los Angeles, USA</h4>
+                    </div>
+
                 </div>
 
             </div>
-
-           </div>
         </section>
 
         <section class="what-i-d0">
@@ -88,25 +91,33 @@
             </p>
             <div class="skill-container">
                 <div class="skill">
-                    <img src="./images/icons/js.png" alt="javascript">
+                    <div class="skils-img">
+                        <img src="./images/icons/js.png" alt="node.js">
+                    </div>
                     <h3 class="skill-titel">javascript</h3>
                     <p class="skill-desc">List skill/technologies here. You can change the icon above to any of the
                         1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
                 <div class="skill">
-                    <img src="./images/icons/react.png" alt="react">
+                    <div class="skils-img">
+                        <img src="./images/icons/react.png" alt="node.js">
+                    </div>
                     <h3 class="skill-titel">react</h3>
                     <p class="skill-desc">List skill/technologies here. You can change the icon above to any of the
                         1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
                 <div class="skill">
-                    <img src="./images/icons/nodejs.png" alt="node.js">
+                    <div class="skils-img">
+                        <img src="./images/icons/nodejs.png" alt="node.js">
+                    </div>
                     <h3 class="skill-titel">Node.js</h3>
                     <p class="skill-desc">List skill/technologies here. You can change the icon above to any of the
                         1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
                 <div class="skill">
-                    <img src="./images/icons/mongo.png" alt="Mongobd">
+                    <div class="skils-img">
+                        <img src="./images/icons/mongo.png" alt="node.js">
+                    </div>
                     <h3 class="skill-titel">MongoDB</h3>
                     <p class="skill-desc">List skill/technologies here. You can change the icon above to any of the
                         1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
@@ -125,69 +136,76 @@
                     <div class="resume-titel">
                         <h2 class="resume-item-titel">Master in Computer Engineering</h2>
                         <h3 class="resume-institute">Harvard University / 2015 - 2017</h3>
-                        <p class="resume-description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <p class="resume-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
                     </div>
                     <hr>
                     <div class="resume-titel">
                         <h2 class="resume-item-titel">Master in Computer Engineering</h2>
                         <h3 class="resume-institute">Harvard University / 2015 - 2017</h3>
-                        <p class="resume-description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <p class="resume-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
                     </div>
                     <hr>
                     <div class="resume-titel">
                         <h2 class="resume-item-titel">Master in Computer Engineering</h2>
                         <h3 class="resume-institute">Harvard University / 2015 - 2017</h3>
-                        <p class="resume-description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <p class="resume-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
                     </div>
 
                 </div>
 
-    <!-- resume column 2 -->
+                <!-- resume column 2 -->
 
                 <div class="resume-column">
                     <h3 class="column-titel">My Experience</h3>
                     <div class="resume-titel">
                         <h2 class="resume-item-titel">Sr. Font End Developer</h2>
                         <h3 class="resume-institute">Apple Inc / 2020 - Current</h3>
-                        <p class="resume-description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <p class="resume-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
                     </div>
                     <hr>
                     <div class="resume-titel">
                         <h2 class="resume-item-titel">Jr. Font End Developer</h2>
                         <h3 class="resume-institute">Dribbble Inc / 2018 - 2022</h3>
-                        <p class="resume-description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <p class="resume-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
                     </div>
                     <hr>
                     <div class="resume-titel">
                         <h2 class="resume-item-titel">HTML Developer</h2>
                         <h3 class="resume-institute">Adobe Inc / 2017 - 2018</h3>
-                        <p class="resume-description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <p class="resume-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
                     </div>
                 </div>
             </div>
-           <div class="div-btn"> <input class=" btn" type="button" value="Button"></div>
+            <div class="div-btn"> <input class=" btn" type="button" value="Button"></div>
         </Section>
     </main>
 
     <!-- this is footer section -->
-    <footer >
+    <footer>
         <div class="footer-column1">
             <h3 class="section-title">Let's Contact</h3>
-            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET,
+                Monday through Friday.</p>
             <div class="social-icon">
                 <img src="./images/icons/facebook.png" alt="facaebook link">
-               <img src="./images/icons/insta.png" alt="instragram link">
-               <img src="./images/icons/twitter.png" alt="twitter">
+                <img src="./images/icons/insta.png" alt="instragram link">
+                <img src="./images/icons/twitter.png" alt="twitter">
             </div>
         </div>
         <div class="footer-column2">
-            <h3 class="section-title" >Let's Message Me</h3>
+            <h3 class="section-title">Let's Message Me</h3>
             <form class="footer-form" action="#">
                 <input type="text" name="text" id="text" placeholder="Your Name">
                 <input type="email" name="email" id="email" placeholder="Your Email">
